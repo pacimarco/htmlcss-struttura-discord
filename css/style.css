@@ -126,3 +126,78 @@ background-color: lightgray;
     margin: auto;
     background-color: green;
 }
+
+.footer{ /* 680px di cui 580 footer-top e 100 px o più il footer-botton*/
+    background-color: rgb(28, 27, 27);
+    padding: 10px 0px;
+    height: 680px;
+    
+
+}
+
+.footer-top{
+    background-color: rgb(28, 27, 27);
+    padding: 40px 0px;
+    height: 580px;
+    display: flex;  
+}
+
+.container-footer-top{
+    
+    width: 70%;  
+    height: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.nav-1{
+width: 20%;
+background-color: salmon;
+border: dotted 1px black;
+}
+
+.nav-2{
+    width: 20%;
+    background-color: aquamarine;
+    border: dotted 1px white;
+
+}
+
+hr{
+    color: white;
+}
+
+.footer-botton{
+    height: 100px;
+    background-color: rgb(28, 27, 27);
+    padding: 10px 0px;
+}
+
+.container-footer-botton{
+    width: 70%;
+    height: 80%;
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 16px;
+}
+
+.logo-footer{
+width: 15%;
+height: 16px;
+background-color: salmon;
+color: black;
+border: dotted 1px black;
+
+}
+
+.bottone-footer{
+    width: 15%;
+    height: 16px;
+    background-color: salmon;
+    color: black;
+    border: dotted 1px black;
+}
