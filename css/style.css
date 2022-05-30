@@ -27,6 +27,7 @@ header{
     border: dotted 1px black;
     display: flex;
     
+    
 }
 
 .logo{ 
@@ -56,5 +57,12 @@ header{
     margin: auto;
     margin-top: 50px;
 }
+
+.sezione1{
+    height: 580px;
+    background-color: white;
+}
+
+
 
 
