@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    height: 580px;
+    background-color: darkblue;
+}
+
+.header-top{
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu{  /* 25%logo-49%link-25%login-2x1px border*/
+    background-color: orange;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    border: dotted 1px black;
+    display: flex;
+    
+}
+
+.logo{ 
+    width: 25%;
+    height: 100%;
+    border-right: dotted 1px black;
+}
+
+.link{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 25%;
+    height: 100%;
+    border-left: dotted 1px black;
+    align-self: flex-end;
+}
+
+.container-posto{
+    width: 60%;
+    height: 380px;
+    background-color: palevioletred;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
