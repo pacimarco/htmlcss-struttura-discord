@@ -34,11 +34,14 @@ header{
     width: 25%;
     height: 100%;
     border-right: dotted 1px black;
+    display: flex;
+    align-items: center;
 }
 
 .link{
     width: 49%;
     height: 100%;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -47,7 +50,9 @@ header{
     width: 25%;
     height: 100%;
     border-left: dotted 1px black;
-    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .container-posto{
